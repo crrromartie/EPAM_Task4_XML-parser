@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vehicles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.example.com/vehicles"
+          xsi:schemaLocation="http://www.example.com/vehicles vehicles.xsd">
+
+    <car id="Id-1">
+        <brand>Audi</brand>
+        <model>A4</model>
+        <origin>Germany</origin>
+        <price>36000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>194</power>
+            <fuel-consumption>5.8</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>4.56</length>
+            <width>1.86</width>
+            <weight>2000</weight>
+        </parameters>
+        <awd>true</awd>
+        <acceleration>8.2</acceleration>
+        <max-speed>225</max-speed>
+    </car>
+
+    <truck id="Id-2">
+        <brand>Fiat</brand>
+        <model>Ducato</model>
+        <origin>Italy</origin>
+        <price>27000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>180</power>
+            <fuel-consumption>8.3</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>5.83</length>
+            <width>1.88</width>
+            <weight>4000</weight>
+        </parameters>
+        <cargo-capacity>1500</cargo-capacity>
+    </truck>
+
+    <bus id="Id-3">
+        <brand>Ford</brand>
+        <model>Transit</model>
+        <origin>USA</origin>
+        <price>27000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>125</power>
+            <fuel-consumption>8.8</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>6.5</length>
+            <width>1.9</width>
+            <weight>4600</weight>
+        </parameters>
+        <passenger-capacity>17</passenger-capacity>
+    </bus>
+
+</vehicles>

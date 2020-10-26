@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vehicles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.example.com/vehicles"
+          xsi:schemaLocation="http://www.example.com/vehicles vehicles.xsd">
+
+    <car id="Id-1" description="Cool car!">
+        <brand>Audi</brand>
+        <model>A4</model>
+        <origin>Germany</origin>
+        <price>36000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>194</power>
+            <fuel-consumption>5.8</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>4.56</length>
+            <width>1.86</width>
+            <weight>2000</weight>
+        </parameters>
+        <awd>true</awd>
+        <acceleration>8.2</acceleration>
+        <max-speed>225</max-speed>
+    </car>
+
+    <truck id="Id-2">
+        <brand>Fiat</brand>
+        <model>Ducato</model>
+        <origin>Italy</origin>
+        <price>27000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>180</power>
+            <fuel-consumption>8.3</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>5.83</length>
+            <width>1.88</width>
+            <weight>4000</weight>
+        </parameters>
+        <cargo-capacity>1500</cargo-capacity>
+    </truck>
+
+    <bus id="Id-3">
+        <brand>Ford</brand>
+        <model>Transit</model>
+        <origin>USA</origin>
+        <price>27000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>125</power>
+            <fuel-consumption>8.8</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>6.5</length>
+            <width>1.9</width>
+            <weight>4600</weight>
+        </parameters>
+        <passenger-capacity>17</passenger-capacity>
+    </bus>
+
+    <car id="Id-4">
+        <brand>Honda</brand>
+        <model>Civic</model>
+        <origin>Japan</origin>
+        <price>28000</price>
+        <chars>
+            <fuel-type>gasoline</fuel-type>
+            <power>172</power>
+            <fuel-consumption>6.5</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>4.57</length>
+            <width>1.75</width>
+            <weight>1680</weight>
+        </parameters>
+        <awd>false</awd>
+        <acceleration>8.4</acceleration>
+        <max-speed>220</max-speed>
+    </car>
+
+    <truck id="Id-5">
+        <brand>Iveco</brand>
+        <model>Daily</model>
+        <origin>Italy</origin>
+        <price>28500</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>163</power>
+            <fuel-consumption>9.2</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>5.73</length>
+            <width>1.79</width>
+            <weight>4300</weight>
+        </parameters>
+        <cargo-capacity>1650</cargo-capacity>
+    </truck>
+
+    <bus id="Id-6">
+        <brand>Mercedes</brand>
+        <model>Sprinter</model>
+        <origin>Germany</origin>
+        <price>27000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>169</power>
+            <fuel-consumption>9.2</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>6.4</length>
+            <width>1.85</width>
+            <weight>4650</weight>
+        </parameters>
+        <passenger-capacity>19</passenger-capacity>
+    </bus>
+
+    <car id="Id-7">
+        <brand>Ford</brand>
+        <model>Mondeo</model>
+        <origin>USA</origin>
+        <price>31000</price>
+        <chars>
+            <fuel-type>gasoline</fuel-type>
+            <power>175</power>
+            <fuel-consumption>6.9</fuel-consumption>
+            <transmission>automatic</transmission>
+        </chars>
+        <parameters>
+            <length>4.87</length>
+            <width>1.85</width>
+            <weight>2100</weight>
+        </parameters>
+        <awd>false</awd>
+        <acceleration>9.7</acceleration>
+        <max-speed>210</max-speed>
+    </car>
+
+    <truck id="Id-8">
+        <brand>Renault</brand>
+        <model>Mascott</model>
+        <origin>France</origin>
+        <price>28500</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>138</power>
+            <fuel-consumption>9.4</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>6.1</length>
+            <width>2.1</width>
+            <weight>5500</weight>
+        </parameters>
+        <cargo-capacity>3000</cargo-capacity>
+    </truck>
+
+    <bus id="Id-9">
+        <brand>Volkswagen</brand>
+        <model>Crafter</model>
+        <origin>Germany</origin>
+        <price>32000</price>
+        <chars>
+            <fuel-type>diesel</fuel-type>
+            <power>180</power>
+            <fuel-consumption>8.7</fuel-consumption>
+            <transmission>manual</transmission>
+        </chars>
+        <parameters>
+            <length>6.3</length>
+            <width>1.87</width>
+            <weight>4620</weight>
+        </parameters>
+        <passenger-capacity>18</passenger-capacity>
+    </bus>
+</vehicles>

@@ -1,0 +1,5 @@
+2020-10-26T19:39:09,719 [main] FATAL gaponenko.xmlparser.builder.sax.VehicleErrorHandler - 29 : 9 - The end-tag for element type "brand" must end with a '>' delimiter.
+2020-10-26T19:39:09,724 [main] ERROR gaponenko.xmlparser.builder.sax.VehiclesSAXBuilder - Parse error!
+2020-10-26T19:40:54,347 [main] ERROR gaponenko.xmlparser.builder.dom.VehiclesDOMBuilder - File error or I/O error: C:\Users\IGOR\IdeaProjects\Task4_XMLparser\src\main\resources\data\daaForTest.xml (Не удается найти указанный файл)
+2020-10-26T19:41:20,213 [main] ERROR gaponenko.xmlparser.builder.stax.VehiclesStAXBuilder - File error or I/O error: src\main\resources\data\daaForTest.xml (Не удается найти указанный файл)
+2020-10-26T19:41:25,613 [main] FATAL gaponenko.xmlparser.builder.stax.VehicleStAXEventBuilder - File not found! src\main\resources\data\daaForTest.xml (Не удается найти указанный файл)
